@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Пётр Ли](https://up.htmlacademy.ru/adaptive/14/user/56654).
-* Наставник: [Елена Валеева].
+* Наставник: [Елена Валеева](https://htmlacademy.ru/profile/nikkie8).
 
 ---
 
