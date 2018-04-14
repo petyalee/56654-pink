@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Pink</title>
+</head>
+<body>
+
+    <header class="page-header">
+        <div class="page-header__logo">
+            <a class="logo-top"><h1>PINK</h1></a>
+        </div>
+        <nav class="main-nav">
+           <button class="main-nav__toggle" type="button">Открыть меню</button>
+           <div class="main-nav__wrapper">
+                <ul class="main-nav__list site-list">
+                    <li class="site-lis__itemt"><a href="#">Главная</a></li>
+                    <li class="site-lis__itemt site-list__item--active"><a href="#">Фотографии</a></li>
+                    <li class="site-lis__itemt"><a href="#">Конкурс</a></li>
+                    <li class="site-lis__itemt"><a href="#">HTML ACADEMY</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="welcome">
+            <img src="http://placehold.it/150x100"" alt="" class="users__photo">
+            <p class="users__photo__text">Конкурс на самое безбашенное путешествие с Пинк</p>
+            <p class="welcome__text">Поделитесь своей историей и получите шанс выграть ценный приз - 1000 миль на вашу бонусную карту!</p>
+        </div>
+
+        <div id="form_container">
+            <form class="konkurs"  method="post" action="">
+                <ul >
+                    <li id="li__surname" >
+                        <label class="konkurs_text" for="element_1">ФАМИЛИЯ: </label>
+                        <div>
+                            <input id="element_1" name="element_1" class="element text medium" type="text" maxlength="25" value=""/>
+                        </div>
+                    </li>
+                    <li id="li__name" >
+                        <label class="konkurs_text" for="element_2">ИМЯ: </label>
+                        <div>
+                            <input id="element_2" name="element_2" class="element text medium" type="text" maxlength="20" value=""/>
+                        </div>
+                    </li>
+                    <li id="li__fathername" >
+                        <label class="konkurs__text" for="element_3">ОТЧЕСТВО: </label>
+                        <div>
+                            <input id="element_3" name="element_3" class="element text medium" type="text" maxlength="25" value=""/>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="checkbox_info">
+            <p class="konkurs_text">ВАШИ БЕЗБАШЕННЫЕ ДОСТИЖЕНИЯ В ПУТЕШЕСТВИИ</p>
+            <input type="checkbox" id="raz"/><label for="raz">Сделал селфи с акулой</label>
+            <input type="checkbox" id="raz"/><label for="raz">Обгорел на пляже</label>
+            <input type="checkbox" id="raz"/><label for="raz">Видел Чака Норриса</label>
+            <input type="checkbox" id="raz"/><label for="raz">Накупил сувениров</label>
+            <input type="checkbox" id="raz"/><label for="raz">Удержал башню</label>
+            <input type="checkbox" id="raz"/><label for="raz">Разгромил отель</label>
+        </div>
+        <form class="konkurs__userinfo" method="post" action="">
+            <ul >
+                <li id="li__phone" >
+                    <label class="konkurs_text" for="element_1">НОМЕР ТЕЛЕФОНА </label>
+                    <div>
+                        <input id="element_1" name="element_1" class="element text med type="text" maxlength="25" value=""/>
+                    </div>
+                </li>
+                <li id="li__mail" >
+                    <label class="konkurs_text" for="element_2">АДРЕС ПОЧТЫ </label>
+                    <div>
+                        <input id="element_2" name="element_2" class="element text medium" type="text" maxlength="20" value=""/>
+                    </div>
+                </li>
+            </ul>
+        </form>
+    </header>
+</body>
+</html>
