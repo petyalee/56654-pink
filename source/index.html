@@ -3,11 +3,13 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Pink</title>
+	<title>Pink Главная</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+  <link rel="icon" href="img\icons\favicon_32x32.ico">
+  <link rel="icon" href="img\icons\favicon_16x16.ico">
 </head>
 
-<body>
+<body class="index-page">
 
 	<header class="page-header">
 
@@ -36,7 +38,7 @@
 			</div>
 		</div>
 
-		<div class="download">
+		<div class="downloads">
 			<div class="container clearfix">
 				<div class="container--to-left">
 					<a class="downloads__btn" href="#">Скачать приложение</a>
@@ -53,25 +55,25 @@
 
 	<section class="information">
 		<div class="container">
-			<span class="features__slogan">Устали от серости мегаполиса?</span>
-			<span class="features__slogan">Нам есть, что вам предложить!</span>
+			<h2 class="information__text">Устали от серости мегаполиса?</h2>
+			<h2 class="information__text  information__text--second-line">Нам есть, что вам предложить!</h2>
 		</div>
-	</section>      
+	</section>
 
 	<section class="features">
 		<div class="container">
 
-			<section class="features__item">
+			<section class="features__item feature-item--1">
 				<h3 class="features__title">Поднимает настроение</h3>
 				<p class="features__text">Приложение позволит вам победить осеннюю хандру и деперессию буквально в несколько кликов!</p>
 			</section>
 
-			<section class="features__item">
+			<section class="features__item feature-item--2">
 				<h3 class="features__title">Меняет мир вокруг</h3>
 				<p class="features__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект!</p>
 			</section>
 
-			<section class="features__item">
+			<section class="features__item feature-item--3">
 				<h3 class="features__title">Заводит новых друзей</h3>
 				<p class="features__text">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых!</p>
 			</section>
@@ -233,18 +235,28 @@
 
 			<div class="footer-contacts__wrapper  footer-contacts__wrapper--title">
 				<h2 class="footer-contacts__title  footer-contacts__title--1">Остались вопросы?</h2>
+
 				<h2 class="footer-contacts__title  footer-contacts__title--2">Свяжитесь с нами!</h2>
 			</div>
 
-			<div class="footer-contacts__wrapper ">
-				<span class="page-footer__itme-name">Пишите:</span>
-				<a class="contacts__contact" href="mailto:hello@pinkapp.ru">mail@htmlacademy.ru</a>
+			<div class="footer-contacts__wrapper  footer-contacts__wrapper--halfwidth  footer-contacts__wrapper--phone">
+				<p class="footer-contacts__paragraph">Звоните:</p>
+
+				<a class="footer-contacts__information">+7 (812) 555-66-66</a>
 			</div>
 
-			<div class="footer-contacts__wrapper ">
-				<span class="page-footer__itme-nam">Приезжайте в гости:</span>
-				<a class="contacts__contact">ул. Большая Конюшенная, 19/8</a>
+			<div class="footer-contacts__wrapper  footer-contacts__wrapper--halfwidth  footer-contacts__wrapper--email">
+				<p class="footer-contacts__paragraph">Пишите:</p>
+
+				<p class="footer-contacts__information">mail@htmlacademy.ru</p>
 			</div>
+
+			<div class="footer-contacts__wrapper  footer-contacts__wrapper--address">
+				<a class="footer-contacts__paragraph">Приезжайте в гости:</a>
+
+				<p class="footer-contacts__information  footer-contacts__information--last-line">ул. Большая Конюшенная, 19/8</p>
+			</div>
+		</div>
 
 		</section>
 
@@ -271,6 +283,8 @@
 
 			</div>
 		</footer>
+
+	<script src="js/main-nav__toggle.js"></script>
 
 	</body>
 
