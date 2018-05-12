@@ -1,0 +1,48 @@
+.editor-icon {
+  cursor: pointer;
+  opacity: .3; }
+
+.editor-icon:hover {
+  opacity: .5; }
+
+.editor-icon--active {
+  fill: #d22856;
+  opacity: 1; }
+
+.editor-icon--active:active, .editor-icon--active:hover {
+  opacity: 1; }
+
+.media__editor-scale {
+  height: 20px;
+  position: relative; }
+
+.media__editor-scale--tablet-version {
+  display: none; }
+
+.media__editor-scale::before {
+  background-color: #283645;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 87.5%; }
+
+.media__editor-scale::after {
+  background-color: #fff;
+  border: 3px solid #d22856;
+  border-radius: 50%;
+  content: "";
+  cursor: pointer;
+  height: 9px;
+  position: absolute;
+  right: 19%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 9px; }
+
+.media__editor-scale:active::after {
+  background-color: #d22856; }

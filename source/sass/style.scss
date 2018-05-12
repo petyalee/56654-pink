@@ -1,3 +1,22 @@
-body {
-  background: blue;
-}
+@import "base.scss";
+@import "fonts.scss";
+@import "btn.scss";
+@import "main-nav.scss";
+@import "intro.scss";
+@import "app-info.scss";
+@import "features.scss";
+@import "reviews.scss";
+@import "prices.scss";
+@import "contacts.scss";
+@import "media.scss";
+@import "editor.scss";
+@import "sliders.scss";
+@import "desc-block.scss";
+@import "form.scss";
+@import "footer.scss";
+@import "modal-windows.scss";
+@import "screen320px.scss";
+@import "screen660px.scss";
+@import "screen1200px.scss";
+@import "map.scss";
+@import "social.scss";

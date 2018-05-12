@@ -1,0 +1,41 @@
+.map__wrapper {
+  height: 200px;
+  overflow: hidden;
+  position: relative; }
+
+.map__decor {
+  background: url(../img/bg-triangle-white-footer.svg) no-repeat center;
+  background-size: contain;
+  height: 62px;
+  left: 50%;
+  position: absolute;
+  top: -15px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  width: 100%;
+  z-index: 1; }
+
+.map__link {
+  background: #fff url(../img/bg-map-mobile.png) no-repeat center 100%;
+  background-size: cover;
+  height: 200px;
+  width: 100%; }
+
+.map__link::after, .map__link::before {
+  border-radius: 50%;
+  content: "";
+  left: 50%;
+  position: absolute;
+  top: 111px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+.map__link::before {
+  background-color: #fff;
+  height: 35px;
+  width: 35px; }
+
+.map__link::after {
+  background-color: #d22856;
+  height: 15px;
+  width: 15px; }

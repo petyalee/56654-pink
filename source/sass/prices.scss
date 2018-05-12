@@ -1,0 +1,153 @@
+.prices__inner-wrapper, .prices__wrapper {
+  background-color: #f2f2f2; }
+
+.prices__inner-wrapper {
+  height: 380px;
+  margin: 0 auto;
+  max-width: 320px;
+  overflow: hidden;
+  padding-top: 120px; }
+
+.prices__slider {
+  position: relative; }
+
+.prices__slider-wrapper {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  left: 50%;
+  ms-flex-align: start;
+  ms-flex-pack: start;
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: -webkit-transform .3s linear;
+  transition: -webkit-transform .3s linear;
+  transition: transform .3s linear;
+  transition: transform .3s linear, -webkit-transform .3s linear; }
+
+.prices__slider-input {
+  display: none; }
+
+.prices__slider-slide {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  border-right: 2px solid #f2f2f2;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  ms-flex-align: stretch;
+  ms-flex-direction: column;
+  ms-flex-pack: start; }
+
+.prices__slider-slide--hidden-for-mobile {
+  display: none; }
+
+.prices__slider-input[id=price-r1]:checked ~ .prices__slider-wrapper {
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  -webkit-transform: translateX(-135px);
+          transform: translateX(-135px); }
+
+.prices__slider-input[id=price-r2]:checked ~ .prices__slider-wrapper {
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  -webkit-transform: translateX(-415px);
+          transform: translateX(-415px); }
+
+.prices__slider-input[id=price-r3]:checked ~ .prices__slider-wrapper {
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  -webkit-transform: translateX(-690px);
+          transform: translateX(-690px); }
+
+.prices__item, .prices__slide-title-block {
+  border: 0;
+  outline: 1px solid #e5e5e5;
+  width: 276px; }
+
+.prices__slide-title-block {
+  background-color: #283645;
+  padding-bottom: 21px;
+  padding-top: 18px;
+  position: relative;
+  text-align: center; }
+
+.prices__slide-title-block--hit::before {
+  background: url(../img/bg-hit.svg) no-repeat center;
+  content: "";
+  height: 68px;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+  width: 74px; }
+
+.prices__hit-label {
+  color: #fff;
+  font: 1.4em/2.14286em "Open Sans Semibold",Arial,sans-serif;
+  left: 7px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 13px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+
+.prices__cost, .prices__slide-title {
+  color: #fff;
+  font: 1.8em/1.66667em "Open Sans Bold",Arial,sans-serif;
+  text-transform: uppercase; }
+
+.prices__cost {
+  font: 2.4em/1.25em "Open Sans Light",Arial,sans-serif;
+  opacity: .7; }
+
+.prices__item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  border-bottom: 2px solid #f2f2f2;
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  ms-flex-align: center;
+  ms-flex-pack: justify;
+  padding-bottom: 13px;
+  padding-top: 16px; }
+
+.prices__item-name {
+  color: #283645;
+  font: 1.4em/2.14286em "Open Sans",Arial,sans-serif;
+  padding-left: 23px;
+  text-transform: uppercase; }
+
+.prices__item-availability {
+  padding-right: 35px; }
+
+.prices__item-availability--yes {
+  background: url(../img/icons/prices__icon-yes.png) no-repeat center;
+  height: 21px;
+  width: 31px; }
+
+.prices__item-availability--no {
+  background: url(../img/icons/prices__icon-no.png) no-repeat center;
+  height: 26px;
+  width: 27px; }

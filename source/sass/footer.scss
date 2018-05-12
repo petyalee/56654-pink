@@ -1,0 +1,44 @@
+.page-footer__inner-wrapper--contest {
+  padding-top: 54px; }
+
+.page-footer__logo-link {
+  margin-bottom: 40px;
+  width: 147px; }
+
+.page-footer__logo-link:hover .page-footer__logo--pink-text {
+  fill: #d22856; }
+
+.page-footer__logo-link:active {
+  opacity: .3; }
+
+.page-footer__logo--pink-decor-visible-4-desktop {
+  display: none; }
+
+.page-footer__made-by {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  height: 35px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  ms-flex-align: stretch;
+  ms-flex-pack: justify;
+  width: 130px; }
+
+.page-footer__made-by-text {
+  color: #283645;
+  font: 1.4em/1.28571em "Open Sans",Arial,sans-serif;
+  padding-top: 6px; }
+
+.page-footer__made-by-logo {
+  fill: #d22856; }
+
+.page-footer__logo-link:active .page-footer__logo--pink-text, .page-footer__made-by-logo:hover {
+  fill: #283645; }
+
+.page-footer__made-by-logo:active {
+  opacity: .3; }

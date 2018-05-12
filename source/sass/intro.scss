@@ -1,0 +1,80 @@
+.intro__block-bg, .intro__wrapper {
+  background-color: #1d2631; }
+
+.intro__block-bg {
+  background: url(../img/iphone-hand-mobile@1x.png) no-repeat 0% 93%, url(../img/bg-back-mobile@1x.jpg) no-repeat center 111%;
+  height: 401px; }
+
+.intro__block-bg--not-index {
+  background: url(../img/bg-back-mobile@1x.jpg) no-repeat center 24%;
+  height: 168px; }
+
+.intro__block-bg--js-mobile {
+  background: url(../img/iphone-hand-mobile@1x.png) no-repeat 0% 100%, url(../img/bg-back-mobile@1x.jpg) no-repeat center 0%;
+  height: 461px; }
+
+.intro__block-bg--js-mobile-not-index {
+  background: url(../img/bg-back-mobile@1x.jpg) no-repeat center 0%;
+  height: 170px;
+  padding-top: 60px; }
+
+.intro__text-tranfer {
+  display: none; }
+
+.intro__title {
+  color: #fff;
+  font: 2.4em "Open Sans Light",Arial,sans-serif;
+  line-height: 1.2em;
+  margin: 0;
+  padding-left: 6.25%;
+  padding-right: 6.25%;
+  padding-top: 28px;
+  text-align: center; }
+
+.intro__title--index {
+  display: none; }
+
+.intro__desc-block {
+  padding: 20px 6.25% 29px; }
+
+.intro__download-link {
+  background-color: transparent;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+  font: 1.8em/1em "Open Sans Bold",Arial,sans-serif;
+  padding-bottom: 17px;
+  padding-top: 15px;
+  text-align: center; }
+
+.intro__download-link:hover {
+  background-color: #fff;
+  color: #d22856; }
+
+.intro__download-link:active {
+  color: #f3d2d8; }
+
+.intro__os-icons {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  ms-flex-align: end;
+  ms-flex-pack: justify;
+  ms-flex-wrap: wrap;
+  padding-left: 13.5%;
+  padding-right: 13.5%;
+  padding-top: 30px; }
+
+.intro__desc {
+  color: #fff;
+  font: 1.4em/1.71429em "Open Sans Light",Arial,sans-serif;
+  padding-top: 23px;
+  text-align: center; }

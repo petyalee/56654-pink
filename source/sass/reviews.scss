@@ -1,0 +1,60 @@
+.reviews__wrapper {
+  position: relative; }
+
+.reviews__sci-fact {
+  display: none; }
+
+.reviews__slider {
+  position: relative; }
+
+.reviews__slider-input {
+  display: none; }
+
+.reviews__slider-wrapper {
+  height: 279px;
+  padding: 42px 6.25% 0;
+  position: relative;
+  text-align: center; }
+
+.reviews__js-slider-arrow-switch-4-desktop, .reviews__slider-quotes-img-block {
+  display: none; }
+
+.reviews__slider-slide {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  ms-flex-align: center;
+  ms-flex-direction: column; }
+
+.reviews__slider-input[id=review-r1]:checked ~ .reviews__slider-wrapper > .reviews__slider-slide--r1, .reviews__slider-input[id=review-r2]:checked ~ .reviews__slider-wrapper > .reviews__slider-slide--r2, .reviews__slider-input[id=review-r3]:checked ~ .reviews__slider-wrapper > .reviews__slider-slide--r3 {
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox; }
+
+.reviews__review-author {
+  color: #283645;
+  font: 1.8em/1.66667em "Open Sans Bold",Arial,sans-serif;
+  margin-bottom: 11px; }
+
+.reviews__review-author-profession {
+  display: none; }
+
+.reviews__testimonial {
+  color: #283645;
+  font: 1.4em/2.14286em "Open Sans",Arial,sans-serif;
+  width: 100%; }
+
+.reviews__decor {
+  background: url(../img/bg-triangle-white.svg) no-repeat center;
+  background-size: cover;
+  bottom: -90px;
+  height: 95px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1; }

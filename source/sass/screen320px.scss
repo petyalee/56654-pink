@@ -1,0 +1,14 @@
+@media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 320px) and (min-resolution: 144dpi), only screen and (min-width: 320px) and (min-resolution: 1.5dppx) {
+  .intro__block-bg {
+    background: url(../img/iphone-hand-mobile@2x.png) no-repeat 0% 95%, url(../img/bg-back-mobile@2x.jpg) no-repeat center 111%;
+    background-size: 258px auto,700px auto; } }
+
+@media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 320px) and (min-resolution: 144dpi), only screen and (min-width: 320px) and (min-resolution: 1.5dppx) {
+  .intro__block-bg {
+    background: url(../img/iphone-hand-mobile@2x.png) no-repeat 0% 95%, url(../img/bg-back-mobile@2x.jpg) no-repeat center 111%;
+    background-size: 258px auto,700px auto; } }
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .map__link .map__link {
+    background: url(../img/bg-map-mobile@2x.png) no-repeat center 100%;
+    background-size: 320px auto; } }

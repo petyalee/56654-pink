@@ -1,0 +1,25 @@
+.contacts__slogan {
+  color: #283645;
+  font: 2.4em "Open Sans Light",Arial,sans-serif;
+  line-height: 1.2em;
+  margin-bottom: 36px; }
+
+.contacts__section {
+  margin-bottom: 20px; }
+
+.contacts__section-title {
+  color: #283645;
+  font: 1.8em "Open Sans Bold",Arial,sans-serif; }
+
+.contacts__section-info {
+  color: #d22856;
+  font: 2.4em "Open Sans Light",Arial,sans-serif; }
+
+.contacts__section-info--mailto:hover {
+  color: #283645;
+  text-decoration: underline; }
+
+.contacts__section-info--mailto:active {
+  color: #283645;
+  opacity: .3;
+  text-decoration: none; }
